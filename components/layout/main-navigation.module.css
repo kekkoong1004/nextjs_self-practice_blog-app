@@ -1,0 +1,40 @@
+.header {
+  height: 5rem;
+  padding: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.mainNavigation {
+  width: 60rem;
+  max-width: 50vw;
+}
+
+.logo {
+  margin-left: 1.5rem;
+  font-size: 1.2rem;
+  color: lightgray;
+  transition: all 0.2s linear;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  list-style: none;
+  font-size: 1.5rem;
+  font-weight: 600;
+  /* background-color: aliceblue; temporary */
+  padding: 0.5rem 1.5rem;
+  color: lightgray;
+}
+
+.navbar li {
+  transition: all 0.2s linear;
+}
+
+.logo:hover,
+.navbar li:hover {
+  color: whitesmoke;
+  transform: scale(1.05) translate(2px, -3px);
+}
